@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cotizador de clases de Gimnasio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png"
+        href="assets/img/Bodybuilding-and-gym-logo-on-transparent-background-PNG.png" />
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/productos.js"></script>
+    <script defer src="js/reservas.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">SELECCIONA LA ACTIVIDAD A REALIZAR:</h1>
+    </div>
+    <nav>
+        <span><a href="reservas.html">Reservá</a></span>
+        <a href="checkout.html">Mis Reservas (<span id="productosEnCarrito">0</span>)</a>
+        <a href="misabonos.html">Mis Abonos</a>
+        <a href="misdatos.html">Mis Datos</a>
+    </nav>
+    <div class="container">
+        <input type="search" id="inputSearch" placeholder="🔍 Nombre de la Actividad a Buscar">
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha y Hora</th>
+                    <th>Actividad</th>
+                    <th>Disponiblilidad</th>
+                    <th>importe</th>
+                    <th>Seleccionar</th>
+                </tr>
+            </thead>
+            <tbody id="tablaProductos">
+            </tbody>
+        </table>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.activity {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.1s ease;
+}
+
+.activity:hover {
+    background-color: #e0e0e0;
+}
+
+p,
+select,
+input,
+span {
+    font-size: large;
+    font-weight: 600;
+}
+
+thead {
+    font-weight: 800;
+    font-size: larger;
+}
+
+tbody tr:hover {
+    background: rgba(72, 61, 139, 0.6);
+    color: #e0e0e0;
+    padding: 10px;
+}
+
+td:first-child,
+th:first-child {
+    padding-left: 10px !important;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.listado-productos {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.botones button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+ /* Cambia el color de fondo el boton que se selecciono. esto viene de js */
+.button.seleccionado {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="tel"],
+form input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+tbody tr {
+    background-color: #f0f0f0;
+}
+
+tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+body-login {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../assets/img/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    /* Agregar estilos para el logo aquí */
+}
+
+.login-form {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.login-form input,
+.login-form button {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.datos-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dato-item {
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.label {
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+}
+
+.valor {
+    font-weight: normal;
+    display: inline-block;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.datosCliente{
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 5px;
+margin-bottom: 10px;
+width: 100%;
+box-sizing: border-box;
+}

@@ -1,0 +1,243 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cross Training",
+        "precio": 2599,
+        "fecha": "Lunes 24 de Julio de 2023",
+        "codigo": "CT001",
+        "turno": 5
+
+    },
+    {
+        "id": 2,
+        "nombre": "Boxeo",
+        "precio": 3859,
+        "fecha": "Martes 25 de Julio de 2023",
+        "codigo": "BX002",
+        "turno": 0
+    },
+    {
+        "id": 3,
+        "nombre": "Funcional",
+        "precio": 1851,
+        "fecha": "Miércoles 26 de Julio de 2023",
+        "codigo": "FN003",
+        "turno": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Musculación",
+        "precio": 2599,
+        "fecha": "Jueves 27 de Julio de 2023",
+        "codigo": "MC004",
+        "turno": 0
+    },
+    {
+        "id": 5,
+        "nombre": "Hiit",
+        "precio": 2894,
+        "fecha": "Viernes 28 de Julio de 2023",
+        "codigo": "HT005",
+        "turno": 6
+    },
+    {
+        "id": 6,
+        "nombre": "Full Combat",
+        "precio": 3748,
+        "fecha": "Lunes 24 de Julio de 2023",
+        "codigo": "FC006",
+        "turno": 7
+    },
+    {
+        "id": 7,
+        "nombre": "ABS",
+        "precio": 3281,
+        "fecha": "Martes 25 de Julio de 2023",
+        "codigo": "AB007",
+        "turno": 5
+    },
+    {
+        "id": 8,
+        "nombre": "Zumba",
+        "precio": 1938,
+        "fecha": "Miércoles 26 de Julio de 2023",
+        "codigo": "ZB008",
+        "turno": 5
+    },
+    {
+        "id": 9,
+        "nombre": "MMA",
+        "precio": 3122,
+        "fecha": "Jueves 27 de Julio de 2023",
+        "codigo": "MM009",
+        "turno": 4
+    },
+    {
+        "id": 10,
+        "nombre": "Stretching",
+        "precio": 2745,
+        "fecha": "Viernes 28 de Julio de 2023",
+        "codigo": "ST010",
+        "turno": 2
+    },
+    {
+        "id": 11,
+        "nombre": "Yoga",
+        "precio": 3122,
+        "fecha": "Lunes 24 de Julio de 2023",
+        "codigo": "YG011",
+        "turno": 3
+    },
+    {
+        "id": 12,
+        "nombre": "Ritmos",
+        "precio": 1745,
+        "fecha": "Martes 25 de Julio de 2023",
+        "codigo": "RT012",
+        "turno": 15
+    },
+    {
+        "id": 13,
+        "nombre": "Pilates",
+        "precio": 2300,
+        "fecha": "Miércoles 26 de Julio de 2023",
+        "codigo": "PL013",
+        "turno": 5
+    },
+    {
+        "id": 14,
+        "nombre": "Spinning",
+        "precio": 2579,
+        "fecha": "Jueves 27 de Julio de 2023",
+        "codigo": "SP014",
+        "turno": 5
+    },
+    {
+        "id": 15,
+        "nombre": "Kickboxing",
+        "precio": 2899,
+        "fecha": "Viernes 28 de Julio de 2023",
+        "codigo": "KB015",
+        "turno": 6
+    },
+    {
+        "id": 16,
+        "nombre": "Aeróbicos",
+        "precio": 1900,
+        "fecha": "Lunes 24 de Julio de 2023",
+        "codigo": "AR016",
+        "turno": 7
+    },
+    {
+        "id": 17,
+        "nombre": "Powerlifting",
+        "precio": 3499,
+        "fecha": "Martes 25 de Julio de 2023",
+        "codigo": "PW017",
+        "turno": 6
+    },
+    {
+        "id": 18,
+        "nombre": "Tai Chi",
+        "precio": 2180,
+        "fecha": "Miércoles 26 de Julio de 2023",
+        "codigo": "TC018",
+        "turno": 4
+    },
+    {
+        "id": 19,
+        "nombre": "Natación",
+        "precio": 2800,
+        "fecha": "Jueves 27 de Julio de 2023",
+        "codigo": "NA019",
+        "turno": 5
+    },
+    {
+        "id": 20,
+        "nombre": "GAP",
+        "precio": 1999,
+        "fecha": "Viernes 28 de Julio de 2023",
+        "codigo": "GP020",
+        "turno": 2
+    },
+    {
+        "id": 21,
+        "nombre": "Bailoterapia",
+        "precio": 2150,
+        "fecha": "Lunes 24 de Julio de 2023",
+        "codigo": "BT021",
+        "turno": 5
+    },
+    {
+        "id": 22,
+        "nombre": "Calistenia",
+        "precio": 2799,
+        "fecha": "Martes 25 de Julio de 2023",
+        "codigo": "CL022",
+        "turno": 6
+    },
+    {
+        "id": 23,
+        "nombre": "Futbol",
+        "precio": 2899,
+        "fecha": "Miércoles 26 de Julio de 2023",
+        "codigo": "FT023",
+        "turno": 7
+    },
+    {
+        "id": 24,
+        "nombre": "Baloncesto",
+        "precio": 3099,
+        "fecha": "Jueves 27 de Julio de 2023",
+        "codigo": "BC024",
+        "turno": 4
+    },
+    {
+        "id": 25,
+        "nombre": "Voleibol",
+        "precio": 2499,
+        "fecha": "Viernes 28 de Julio de 2023",
+        "codigo": "VB025",
+        "turno": 2
+    },
+    {
+        "id": 26,
+        "nombre": "Escalada",
+        "precio": 3980,
+        "fecha": "Lunes 24 de Julio de 2023",
+        "codigo": "ES026",
+        "turno": 5
+    },
+    {
+        "id": 27,
+        "nombre": "Crossfit",
+        "precio": 3299,
+        "fecha": "Martes 25 de Julio de 2023",
+        "codigo": "CF027",
+        "turno": 8
+    },
+    {
+        "id": 28,
+        "nombre": "Karate",
+        "precio": 2799,
+        "fecha": "Miércoles 26 de Julio de 2023",
+        "codigo": "KT028",
+        "turno": 5
+    },
+    {
+        "id": 29,
+        "nombre": "Pádel",
+        "precio": 2900,
+        "fecha": "Jueves 27 de Julio de 2023",
+        "codigo": "PD029",
+        "turno": 1
+    },
+    {
+        "id": 30,
+        "nombre": "Ciclismo",
+        "precio": 2499,
+        "fecha": "Viernes 28 de Julio de 2023",
+        "codigo": "CC030",
+        "turno": 3
+    }
+]
